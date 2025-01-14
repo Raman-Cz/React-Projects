@@ -1,0 +1,67 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#e0e8ff;
+}
+
+main{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: #fff;
+  width:90vh;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom:20px;
+  border-radius: 10px;
+}
+
+h1{
+  background-color: #1b1096;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 30px;
+  border-radius: 10px 10px 0 0;
+}
+.slider {
+  -webkit-appearance: none;
+  appearance:none;
+  width: 100%;
+  height: 5px;
+  background: #222;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.4);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #263ba4;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 15px #2395dc, 0 0 25px #5c9fd2;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: #0f5ae7;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 15px #0e66c4, 0 0 25px #0858cf;
+}
+
+.slider:hover {
+  background: #333;
+}
